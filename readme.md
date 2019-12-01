@@ -5,7 +5,7 @@ A Python script that simply prints some useful sysex messages to change
 modes and parameters of a Roland Juno-DS keyboard.
 
 The script outputs the following:
-'''
+```
 Sound Mode:
 Patch:   F0 41 10 00 00 3A 12 01 00 00 00 00 7F F7
 Perform: F0 41 10 00 00 3A 12 01 00 00 00 01 7E F7
@@ -26,7 +26,7 @@ Transpose 3: F0 41 10 00 00 3A 12 01 00 00 12 43 2A F7
 Transpose 4: F0 41 10 00 00 3A 12 01 00 00 12 44 29 F7
 Transpose 5: F0 41 10 00 00 3A 12 01 00 00 12 45 28 F7
 Transpose 6: F0 41 10 00 00 3A 12 01 00 00 12 46 27 F7
-'''
+```
 
 The script contains a function to calculate checksums and the functions that
 create the above sequences are useful to understand the keyboard's sysex
